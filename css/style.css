@@ -1,0 +1,338 @@
+
+
+/*immagine e testo "homepage"*/
+
+#mainsection {
+
+  width: 90%;
+
+  height: 500px;
+
+  padding: 50px 5%;
+
+  background-image: url("../images/castello.jpg");
+
+  background-size: cover;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+}
+#maintitle {
+
+  font-size: 60px;
+
+  text-align: left; color:  #ebebe0;
+
+}
+
+#maindescription { color:#ebebe0 ;
+  font-family: 'Kalnia', serif;
+  
+  font-size: 30px;
+
+  text-align: left;
+
+  margin-top: 20px;
+
+}
+
+#nextevents {
+
+  text-align: center;
+
+  margin-top: 70px;
+  margin-bottom: 0px;
+  font-family: 'Kalnia', serif;
+  color:   #4a1c33;
+  font-size: 40px;
+
+}
+
+
+
+.container {
+
+       margin: 25px auto;
+
+      width: 50%;
+
+      text-align: center;}
+
+
+
+.box{ margin-top: black; }
+
+
+   
+
+    /*card prossimi eventi*/
+
+.card {display: inline-block; 
+
+  text-align: center;
+
+    padding-left: 60px;
+
+    position: relative; left: 100px; top: 100px;}
+
+
+
+.card-title{font-family: 'Kalnia', serif; color:   #4a1c33; font-size: 20px}
+
+.card-text{ font-family: 'Oswald', sans-serif; color:   #4a1c33; font-size: 15px }
+
+
+
+.event {position: absolute; left: 600px; top: 50px}
+
+
+/*barra delle pagine*/
+li.active a {color:   #4a1c33; font-family: 'Kalnia', serif;}
+
+nav ul li a { color:  #4a1c33; font-family: 'Kalnia', serif;}
+
+
+
+h1{text-align: center; font-family: 'Kalnia', serif; color:  #4a1c33;}
+
+
+
+font {position: absolute;left: 500px;bottom: -200px;font-family: 'Kalnia', serif; color:  #4a1c33;}
+
+
+
+
+
+body {background-size: cover}
+
+
+
+header { color: #cab49b;
+
+background-color:   #996666;
+
+padding: 5px 5px 0px 5px;
+
+margin: -8px}
+
+
+
+
+
+nav {text-align: center;}
+
+body{ background-color: #ebebe0}
+
+
+
+
+
+nav ul li {display: inline-block; padding: 20px}
+
+.active { color:#D4C2AD ; background-color: #ebebe0;} 
+
+
+/*footer*/
+footer { background-color:#996666 ; }
+
+
+
+.footer-info{
+
+  color:#4a1c33 ;
+
+  font-family: 'Kalnia', serif;
+
+  background-color:#996666;
+
+  height: 150px;
+
+  bottom: 0;
+
+  left: 0;
+
+  width: 100%;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  position: relative;
+
+}
+
+
+
+/*pagina "i luoghi"*/
+
+#mainluoghi { display: flex; flex-direction: row; justify-content: space-between;}
+
+#luoghileft { width: 29%; }
+
+#luoghiright { width: 69%; }
+
+#luoghiright img { width: 100%; }
+
+.luoghicard { width: 100%; height: 275px; background-color: red; background-size: cover}
+
+.luoghicardtitle { background-color: rgba(255, 255, 255, 0.7); position: relative; top: 230px; height: 25px; 
+    left: 0; color:  #4a1c33; font-family: 'Kalnia', serif; font-weight: bold; padding: 10px; font-size: 20px}
+
+.contatti {position: absolute;left: 595px;top: -18px}
+
+.icone{position: absolute;bottom: -50}
+
+.pagina {position: relative;bottom: -50px; left: -40px}
+
+.title {text-align: left !important}
+
+/*istruzioni su diversi dispositivi*/
+
+@media only screen and (max-width: 900px) {
+
+    #mainluoghi { flex-direction: column; }
+
+    #luoghileft { width: 100%; }
+
+    #luoghiright { width: 100%; }
+
+    .luoghicard { height: 200px; }
+
+    .luoghicardtitle { top: 155px; }
+
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 900px) {
+
+    #luoghileft { width: 49%; }
+
+    #luoghiright { width: 49%; }
+
+}
+
+
+
+
+/*pagina "luoghi"*/
+
+.main{position: relative; right: 300px}
+
+.image1 {
+
+      width: 50%; /* Assicura che l'immagine occupi il 100% della larghezza del contenitore */
+
+      height: auto; /* Fa sì che l'altezza si adatti proporzionalmente alla larghezza */
+
+      display: block; /* Rimuove eventuali spazi vuoti sotto l'immagine */
+
+    }
+
+.text1 {
+
+      position: absolute; /* Posizionamento assoluto rispetto al contenitore principale */
+
+      bottom: 0; /* Posiziona il testo alla parte inferiore del contenitore */
+
+      left: 0; /* Allineamento a sinistra */
+
+      padding: 10px; /* Aggiunge del padding per migliorare la leggibilità */
+
+      background-color: rgba(255, 255, 255, 0.7); /* Sfondo semitrasparente per il testo */
+
+      width: 50%; /* Il testo occupa l'intera larghezza del contenitore */
+
+      box-sizing: border-box; /* Il padding è incluso nella larghezza totale */
+
+   color:   #4a1c33;
+
+ font-family: 'Oswald', sans-serif;}
+
+
+
+ .mappa{position: absolute; top: 200px; left: 200px}
+
+.mappa{ max-width: 60%;
+
+      margin: 40px 20%;
+
+      }
+
+.titolo{position: absolute; bottom: 370px; left: 600px}
+
+
+
+/*pagina per te*/
+
+.news{display: flex; width: 100%; justify-content: center;}
+
+.news input { margin-bottom: 10px; }
+
+#perte{ display: flex; flex-direction: column; width: 90%; margin: auto;}
+
+#news2{ width: 100%; max-width: 400px; display: flex; flex-direction: column; }
+
+.nobuttonstyle { border: none; }
+
+/*documentazione*/
+
+.interfaccia{width: 50%;}
+
+
+
+/* eventi*/
+
+.eventcontainer{ display:flex; flex-direction:row; margin: 0px auto; 
+
+width:90% ; height: 350px; max-height: 350px; border: solid 2px black;}
+
+.reverse { flex-direction:row-reverse; }
+
+.eventcontent{ width:calc(50% - 20px) ; text-align: center;
+
+display: flex; flex-direction: column; 
+
+align-items: center; margin: auto ; padding: 10px}
+
+.eventimage{ width:50% ; height: 100%;}
+
+.eventimage img{ width: 100%; height: 100%; object-fit: cover;}
+
+#mainborder{margin-top: 50px;}
+
+.eventbutton{display: inline-block;}
+
+.eventbutton1  {text-decoration:none; background-color: #996666;
+
+color:  #4a1c33; font-family: 'Kalnia', serif; padding: 5px 20px; 
+
+border-radius: 5px; display: inline-block; margin-bottom: 10px}
+
+
+
+.eventdescription { margin-bottom: 0px; margin-top: 0px; color:  #4a1c33;  font-family: 'Oswald', sans-serif }
+
+.eventcontent h2 {margin-bottom: 10px; color:  #4a1c33; font-family: 'Kalnia', serif}
+
+.eventcard{ color:  #4a1c33; font-family: 'Kalnia', serif; font-size:20px }
+ 
+ /*dispositivi*/
+
+@media only screen and (max-width: 768px) {
+
+    .eventcontent{ width: calc(100% - 20px); }
+
+    .eventimage{width: 100%; height: 175px}
+
+    .eventcontainer{ flex-direction:column-reverse;height: fit-content;
+
+     max-height: none; margin: 20px auto}
+
+}
+
+.doc{ display:inline-block; }
